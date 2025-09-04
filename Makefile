@@ -5,7 +5,7 @@ neuroncore:
   cd oss-cad-suite
   source environment
   source $HOME/oss-cad-suite/environment
-  echo 'export PATH="$HOME/.oss-cad-suite/bin:$PATH"' >> ~/.bashrc
+  echo 'source $HOME/oss-cad-suite/environment' >> ~/.bashrc
   cd
   sudo apt -y install gedit
   cd NeuronCore-FPGA-Pro
