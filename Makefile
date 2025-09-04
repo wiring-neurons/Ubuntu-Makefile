@@ -7,7 +7,7 @@ neuroncore:
   source $HOME/oss-cad-suite/environment
   cd
   echo 'source $HOME/oss-cad-suite/environment' >> ~/.bashrc
-  sudo apt -y install gedit
+  sudo apt install -y gedit
   git clone https://github.com/wiring-neurons/NeuronCore-FPGA-Pro.git
   cd NeuronCore-FPGA-Pro
 
